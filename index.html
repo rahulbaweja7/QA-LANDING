@@ -1,0 +1,29 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/svg+xml" href="/vite.svg" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Quality Assurance — Overview & History</title>
+    <meta name="description" content="A concise introduction to Quality Assurance (QA) and a brief history from inspection to DevOps-era quality engineering." />
+    <meta name="theme-color" content="#646cff" />
+    <meta property="og:title" content="Quality Assurance — Overview & History" />
+    <meta property="og:description" content="Understand what QA is and how it evolved: inspection, SQC, TQM, automation, and shift-left." />
+    <meta property="og:type" content="website" />
+    <script>
+      (function () {
+        try {
+          var stored = localStorage.getItem('qa-theme')
+          // Default to dark mode when no preference is saved
+          var isDark = stored ? stored === 'dark' : true
+          if (isDark) document.documentElement.classList.add('dark')
+          else document.documentElement.classList.remove('dark')
+        } catch (e) {}
+      })()
+    </script>
+  </head>
+  <body class="antialiased bg-zinc-50 text-zinc-900 dark:bg-zinc-950 dark:text-zinc-100">
+    <div id="root"></div>
+    <script type="module" src="/src/main.tsx"></script>
+  </body>
+</html>
