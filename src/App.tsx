@@ -1,5 +1,6 @@
 import './App.css'
 import { useEffect, useState } from 'react'
+import QAPreview from './components/QAPreview'
 
 type TimelineItem = {
   period: string
@@ -104,6 +105,7 @@ function App() {
           </div>
           <div className="flex items-center gap-3">
             <nav className="hidden gap-6 text-sm text-indigo-600 md:flex">
+              <a className="hover:underline underline-offset-4" href="#preview">Preview</a>
               <a className="hover:underline underline-offset-4" href="#about">What is QA</a>
               <a className="hover:underline underline-offset-4" href="#history">History</a>
               <a className="hover:underline underline-offset-4" href="#why">Why QA</a>
@@ -163,11 +165,7 @@ function App() {
           </div>
         </section>
 
-        
-
-        
-
-        
+        <QAPreview />
 
         <section id="about" className="snap-start min-h-dvh flex items-center py-14 md:py-20">
           <div className="container">
