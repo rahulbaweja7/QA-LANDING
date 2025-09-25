@@ -165,8 +165,6 @@ function App() {
           </div>
         </section>
 
-        <QAPreview />
-
         <section id="about" className="snap-start min-h-dvh flex items-center py-14 md:py-20">
           <div className="container">
             <div className="grid items-start gap-8 md:grid-cols-12">
@@ -225,6 +223,8 @@ function App() {
             </div>
           </div>
         </section>
+
+        <QAPreview />
 
         <section id="history" className="snap-start min-h-dvh flex items-center bg-white py-14 dark:bg-zinc-900 md:py-20">
           <div className="container">
