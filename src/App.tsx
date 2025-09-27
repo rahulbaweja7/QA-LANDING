@@ -141,7 +141,7 @@ function App() {
       </header>
 
       <main className="snap-y-mandatory">
-        <section className="relative overflow-hidden snap-start min-h-dvh flex items-center">
+        <section id="top" className="relative overflow-hidden snap-start min-h-dvh flex items-center">
           <div className="absolute inset-0 -z-10 bg-gradient-to-b from-indigo-500/20 via-transparent to-transparent dark:from-indigo-400/15" />
           <div className="parallax" style={{ ['--py' as any]: `${parallaxY}px` }}>
             <div className="pointer-events-none absolute -top-16 -left-24 -z-10 h-64 w-64 rounded-full bg-indigo-500/30 blob" style={{ ['--dur' as any]: '18s' }} />
@@ -304,7 +304,7 @@ function App() {
                   <h3 className="text-base font-semibold">Get started checklist</h3>
                   <p className="mt-1 text-sm text-zinc-600 dark:text-zinc-400">Adopt a few practices this week to elevate quality without slowing down.</p>
                 </div>
-                <a className="inline-flex items-center rounded-lg bg-indigo-600 px-4 py-2.5 text-sm font-medium text-white shadow-sm transition hover:-translate-y-0.5 hover:bg-indigo-500" href="#about">Start now</a>
+                <a className="inline-flex items-center rounded-lg bg-indigo-600 px-4 py-2.5 text-sm font-medium text-white shadow-sm transition hover:-translate-y-0.5 hover:bg-indigo-500" href="#top">Start now</a>
               </div>
             </div>
           </div>
