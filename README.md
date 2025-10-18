@@ -23,20 +23,6 @@ Then open the printed local URL in your browser.
 - `src/App.css`: component styles for layout, hero, timeline, and sections
 - `index.html`: metadata and root mount point
 
-### Customize
-
-- Update content in `src/App.tsx` for your own copy and sections.
-- Replace the favicon by updating the link in `index.html`.
-
-# React + TypeScript + Vite
-
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
-
-Currently, two official plugins are available:
-
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
-
 ## React Compiler
 
 The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
